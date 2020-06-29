@@ -3462,7 +3462,9 @@ h6 {
 }
 
 .project-des {
-    min-height: 432px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 992px) {
@@ -3623,7 +3625,123 @@ h6 {
 ============================================================================================ */
 
 
-/* Start Barand Area css
+/* Start Language Percentage Area css
+============================================================================================ */
+
+.prog-language {
+    bottom: 0px;
+    margin-top: auto;
+    display: none;
+}
+
+.lang-w-percent-ul {
+    list-style: none!important;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.lang-w-percent-li {
+    display: inline;
+}
+
+.prog-language .lang {
+    font-weight: 500!important;
+    font-size: 13px;
+    color: #000000;
+    margin-right: 2px!important;
+}
+
+.prog-language .precent {
+    color: #888E94;
+    font-size: 13px;
+    margin-right: 6px!important;
+}
+
+.prog-language .dot-fill {
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-right: 4px!important;
+}
+
+.language-percent {
+    bottom: 0px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: auto
+}
+
+.language-percent .progress {
+    background: transparent;
+    height: 12px;
+}
+
+.progress-bar+.progress-bar {
+    margin-left: 2px;
+}
+
+.javascript {
+    color: #F1E05A;
+}
+
+.html {
+    color: #E34C26;
+}
+
+.php {
+    color: #4F5D95;
+}
+
+.css {
+    color: #563D7C;
+}
+
+.language-percent .progress .progress-bar.javascript {
+    background-color: #F1E05A;
+}
+
+.language-percent .progress .progress-bar.html {
+    background-color: #E34C26;
+}
+
+.language-percent .progress .progress-bar.php {
+    background-color: #4F5D95;
+}
+
+.language-percent .progress .progress-bar.css {
+    background-color: #563D7C;
+}
+
+.language-percent .progress .progress-bar.color-5 {
+    background-color: #73fbaf;
+}
+
+.language-percent .progress .progress-bar.color-6 {
+    background-color: #6382e6;
+}
+
+.language-percent .progress .progress-bar.color-7 {
+    background-color: #a367e7;
+}
+
+.language-percent .progress .progress-bar.color-8 {
+    background-color: #e66686;
+}
+
+@media (max-width: 575px) {
+    .language-percent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .prog-language {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* End Language Percentage Area css
 ============================================================================================ */
 
 .brand_area {
@@ -3635,10 +3753,6 @@ h6 {
         padding-bottom: 80px;
     }
 }
-
-
-/* End Barand Area css
-============================================================================================ */
 
 
 /* Start Features Area css
