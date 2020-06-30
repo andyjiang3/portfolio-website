@@ -3294,7 +3294,7 @@ h6 {
 
 @media (max-width: 991px) {
     .left-align-p p {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 }
 
@@ -3463,7 +3463,7 @@ h6 {
 }
 
 .project-des {
-    min-height: 450px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -3487,20 +3487,20 @@ h6 {
     }
     .project-section-top-border {
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         border-top: 1px solid #e8e8e8;
         border-bottom: none;
     }
     .project-des {
-        min-height: 232px;
+        min-height: 400px;
     }
 }
 
 @media (max-width: 575px) {
     .project-section-top-border {
         margin-top: 50px;
-        margin-bottom: 50px;
-        border-top: 1px solid #e8e8e8;
+        margin-bottom: 25px;
+        border-top: none;
         border-bottom: none;
         overflow: hidden;
     }
@@ -3519,6 +3519,10 @@ h6 {
         padding-right: 15px;
     }
     .project-des h6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project-background {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -3627,6 +3631,78 @@ h6 {
 
 
 /* End Project Area css
+============================================================================================ */
+
+
+/* Start Project Button Area css
+============================================================================================ */
+
+.project-button {
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    width: 100%;
+}
+
+.project-button-website {
+    background-color: #79CE55;
+}
+
+.project-button-website:hover {
+    background-color: #64b342;
+    color: #fff;
+}
+
+.project-button-github {
+    background-color: #55cfbd;
+}
+
+.project-button-github:hover {
+    background-color: #4cb8a7;
+    color: #fff;
+}
+
+.project-button .tr-bg {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #79CE55, #55cfbd);
+    border: 2px solid transparent;
+    color: #222222;
+    box-shadow: none;
+}
+
+.button-1 {
+    padding-right: 5px;
+}
+
+.button-2 {
+    padding-left: 5px;
+}
+
+@media (max-width: 575px) {
+    .project-buttons {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.button-logo-mr {
+    padding-left: 3px;
+}
+
+
+/* End Project Button Area css
 ============================================================================================ */
 
 
