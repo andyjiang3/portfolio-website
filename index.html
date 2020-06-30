@@ -233,18 +233,40 @@
                                 <img class="project-background" src="img/project/robotics_web.png"></img>
                             </div>
                             <div class="project-des-small project-des col-lg-4 mt-sm-20 left-align-p">
-                                <h3 class="project-title mb-30 title_color">CHS Robotics Website</h3>
+                                <h3 class="project-title mb-20 title_color">CHS Robotics Website</h3>
                                 <p>Website for the CHS Robotics Club, an internationally ranked VEX team. Features announcements, member information, sponsorship, and game details.</p>
-                                <div class="typography">
-                                    <h6 class="typo-list">HTML, CSS, Javascript</h6>
-                                </div>
-                                <!--
-                                <div class="language-percent">
-                                    <div class="progress">
-                                        <div class="progress-bar color-2" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="row project-buttons">
+                                    <div class="col-md-6 col-6 button-1">
+                                        <a class="project-button-website project-button tr-bg" href="https://chilesrobotics.com">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
-                                -->
+                                <div id="prog-language2" class="prog-language">
+                                    <ul class="lang-w-percent-ul">
+                                        <li class="lang-w-percent-li">
+                                            <svg class="dot-fill html" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+                                            <span class="lang">HTML</span>
+                                            <span class="precent">78.8%</span>
+                                        </li>
+                                        <li class="lang-w-percent-li">
+                                            <svg class="dot-fill css" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+                                            <span class="lang">CSS</span>
+                                            <span class="precent">19.3%</span>
+                                        </li>
+                                        <li class="lang-w-percent-li">
+                                            <svg class="dot-fill javascript" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+                                            <span class="lang">Javascript</span>
+                                            <span class="precent">1.9%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div id="language-percent2" class="language-percent">
+                                    <div class="progress">
+                                        <div class="progress-bar html" role="progressbar" style="width: 78.8%" aria-valuenow="78.8" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar css" role="progressbar" style="width: 19.3%" aria-valuenow="19.3" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar javascript" role="progressbar" style="width: 1.9%" aria-valuenow="1.9" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -425,6 +447,17 @@
             document.getElementById('prog-language').style.display = 'none';
             document.getElementById('language-percent').style.marginTop = '0';
             document.getElementById('language-percent').style.marginTop = 'auto';
+        }
+
+        document.getElementById('language-percent2').onmouseover = function() {
+            document.getElementById('prog-language2').style.display = 'block';
+            document.getElementById('prog-language2').style.marginTop = 'auto';
+            document.getElementById('language-percent2').style.marginTop = '0';
+        }
+        document.getElementById('language-percent2').onmouseout = function() {
+            document.getElementById('prog-language2').style.display = 'none';
+            document.getElementById('language-percent2').style.marginTop = '0';
+            document.getElementById('language-percent2').style.marginTop = 'auto';
         }
     </script>
 </body>
