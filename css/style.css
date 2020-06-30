@@ -3454,7 +3454,8 @@ h6 {
 .project-type-word {
     white-space: nowrap;
     text-align: right;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+    direction: rtl;
 }
 
 .project-title {
@@ -3465,6 +3466,10 @@ h6 {
     min-height: 450px;
     display: flex;
     flex-direction: column;
+}
+
+.project-des-small {
+    min-height: 250px;
 }
 
 @media (max-width: 992px) {
@@ -4478,7 +4483,7 @@ h6 {
     }
     .header_area .navbar-collapse {
         max-height: 340px;
-        overflow-y: scroll;
+        margin-bottom: 50px;
     }
     .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
         padding: 0px 15px;
