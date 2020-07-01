@@ -3778,6 +3778,22 @@ h6 {
     color: #563D7C;
 }
 
+.ruby {
+    color: #701516;
+}
+
+.swift {
+    color: #FFAC45;
+}
+
+.python {
+    color: #F34B7D;
+}
+
+.cplusplus {
+    color: #3572A5;
+}
+
 .language-percent .progress .progress-bar.javascript {
     background-color: #F1E05A;
 }
@@ -3794,20 +3810,20 @@ h6 {
     background-color: #563D7C;
 }
 
-.language-percent .progress .progress-bar.color-5 {
-    background-color: #73fbaf;
+.language-percent .progress .progress-bar.ruby {
+    background-color: #701516;
 }
 
-.language-percent .progress .progress-bar.color-6 {
-    background-color: #6382e6;
+.language-percent .progress .progress-bar.swift {
+    background-color: #FFAC45;
 }
 
-.language-percent .progress .progress-bar.color-7 {
-    background-color: #a367e7;
+.language-percent .progress .progress-bar.python {
+    background-color: #F34B7D;
 }
 
-.language-percent .progress .progress-bar.color-8 {
-    background-color: #e66686;
+.language-percent .progress .progress-bar.cplusplus {
+    background-color: #3572A5;
 }
 
 @media (max-width: 575px) {
