@@ -625,7 +625,7 @@ button:focus {
 
 @media (max-width: 991px) {
     .banner_area .banner_inner {
-        background: #55cfbd;
+        background: #79CE55;
         width: 100%;
     }
 }
@@ -1796,6 +1796,9 @@ button:focus {
     max-width: 70%;
     max-width: 70%;
     margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -3463,13 +3466,16 @@ h6 {
 }
 
 .project-des {
-    min-height: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.project-des-small {
-    min-height: 250px;
+.project-spacing {
+    height: 150px;
+}
+
+.project-spacing-small {
+    height: 150px;
 }
 
 @media (max-width: 992px) {
@@ -3491,8 +3497,11 @@ h6 {
         border-top: 1px solid #e8e8e8;
         border-bottom: none;
     }
-    .project-des {
-        min-height: 400px;
+    .project-spacing {
+        height: 100px;
+    }
+    .project-spacing-small {
+        height: 100px;
     }
 }
 
@@ -3589,6 +3598,7 @@ h6 {
 .playground-section {
     margin-top: 40px;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .playground-img {
@@ -3624,6 +3634,10 @@ h6 {
         padding-right: 15px;
     }
     .playground-two-section p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .playground-img {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -3841,18 +3855,8 @@ h6 {
 /* End Language Percentage Area css
 ============================================================================================ */
 
-.brand_area {
-    padding-bottom: 170px;
-}
 
-@media (max-width: 1199px) {
-    .brand_area {
-        padding-bottom: 80px;
-    }
-}
-
-
-/* Start Features Area css
+/* SKILLS AREA
 ============================================================================================ */
 
 .features_area {
@@ -3896,171 +3900,18 @@ h6 {
     background: #fff;
 }
 
+@media (max-width: 992px) {
+    .feature_item {
+        background: #f7f7f7;
+    }
+}
 
-/* End Features Area css
+
+/* SKILLS AREA
 ============================================================================================ */
 
 
-/* Start Brand Area css
-============================================================================================ */
-
-.single-brand-item {
-    width: 170px;
-    height: 100px;
-    cursor: pointer;
-    margin-bottom: 30px;
-    border: 1px solid #eeeeee;
-    box-shadow: none;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-@media only screen and (max-width: 767px) {
-    .single-brand-item {
-        height: 100px;
-        width: 140px;
-    }
-}
-
-@media (max-width: 575px) {
-    .single-brand-item {
-        margin: 0px auto;
-        margin-bottom: 30px;
-    }
-}
-
-.single-brand-item .d-table-cell {
-    vertical-align: middle;
-}
-
-.single-brand-item img {
-    max-width: 80px;
-    margin: 0 auto;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-@media only screen and (max-width: 767px) {
-    .single-brand-item img {
-        max-width: 100px;
-    }
-}
-
-.single-brand-item:hover {
-    border: 1px solid transparent;
-    box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15);
-}
-
-.single-brand-item:hover img {
-    filter: brightness(0%);
-    -o-filter: brightness(0%);
-    -ms-filter: brightness(0%);
-    -moz-filter: brightness(0%);
-    -webkit-filter: brightness(0%);
-}
-
-.client-info {
-    padding: 25px 30px;
-    background: #faf8ff;
-    text-align: center;
-    position: relative;
-    margin-top: 25px;
-}
-
-@media only screen and (max-width: 991px) {
-    .client-info {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 575px) {
-    .client-info {
-        padding-top: 50px;
-    }
-}
-
-.client-info:before {
-    content: '';
-    position: absolute;
-    top: -25px;
-    left: -50px;
-    background: url(../img/client-info-bg.png) no-repeat;
-    height: 175px;
-    width: 175px;
-}
-
-@media (max-width: 575px) {
-    .client-info:before {
-        background: none;
-    }
-}
-
-@media (max-width: 575px) {
-    .client-info .d-flex {
-        -ms-flex-align: center;
-        align-items: center;
-    }
-}
-
-.client-info .lage {
-    color: #55cfbd;
-    font-family: "Rubik", sans-serif;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 85px;
-    position: relative;
-    z-index: 9;
-}
-
-.client-info .smll {
-    text-align: left;
-    color: #000000;
-    font-family: "Rubik", sans-serif;
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-.call-now {
-    padding-top: 50px;
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-@media (max-width: 575px) {
-    .call-now {
-        padding-top: 0px;
-    }
-}
-
-@media (max-width: 480px) {
-    .call-now h3 {
-        font-size: 17px;
-    }
-}
-
-.call-now p {
-    color: #55cfbd;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-.call-now span {
-    font-size: 60px;
-    font-weight: 700;
-    color: #000000;
-}
-
-
-/* End Brand Area css
-============================================================================================ */
-
-
-/* Start Portfolio Area css
+/* PORTFOLIO AREA
 ============================================================================================ */
 
 .portfolio_area {
@@ -4247,106 +4098,11 @@ h6 {
 }
 
 
-/* End Portfolio Area css
+/* PORTFOLIO AREA
 ============================================================================================ */
 
 
-/* Start Testimonial Area css
-============================================================================================ */
-
-.testimonial_area .owl-carousel .owl-dots {
-    display: block !important;
-    text-align: center;
-}
-
-.testimonial_area .owl-carousel .owl-dots .owl-dot {
-    height: 10px;
-    width: 10px;
-    background: #d8d8d8;
-    border-radius: 17px;
-    display: inline-block;
-    margin-right: 10px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.testimonial_area .owl-carousel .owl-dots .owl-dot.active {
-    height: 12px;
-    width: 12px;
-    background: #55cfbd;
-}
-
-@media (max-width: 991px) {
-    .testimonial_area .owl-carousel .owl-dots {
-        display: none !important;
-    }
-}
-
-.testimonial_area .owl-carousel .owl-item img {
-    width: auto !important;
-}
-
-.testi_item {
-    padding: 50px 55px;
-    margin-bottom: 200px;
-    margin-left: 10px;
-    margin: 0px 10px 80px;
-    box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-@media (max-width: 991px) {
-    .testi_item {
-        margin-bottom: 0px;
-    }
-}
-
-@media (max-width: 575px) {
-    .testi_item {
-        padding: 30px 20px;
-    }
-}
-
-.testi_item img {
-    border-radius: 5px;
-}
-
-.testi_item .col-lg-8 {
-    vertical-align: middle;
-    align-self: center;
-}
-
-@media (max-width: 991px) {
-    .testi_item .testi_text {
-        margin-top: 50px;
-    }
-}
-
-.testi_item .testi_text h4 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.testi_item .testi_text p {
-    margin-bottom: 0px;
-}
-
-.testi_item:hover {
-    box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1);
-}
-
-
-/* End Testimonial Area css
-============================================================================================ */
-
-
-/* Start Newsletter Area css
+/* NEWSLETTER AREA
 ============================================================================================ */
 
 .newsletter_area {
@@ -4460,14 +4216,20 @@ h6 {
 }
 
 
-/* End Newsletter Area css
+/* NEWSLETTER AREA
 ============================================================================================ */
 
 
-/*---------------------------------------------------- */
+/* CONTACT FORM AREA
+============================================================================================ */
+
+.contact-form {
+    margin-top: 25px;
+}
 
 
-/*----------------------------------------------------*/
+/* CONTACT FORM AREA
+============================================================================================ */
 
 @media (max-width: 1619px) {
     /* Main Menu Area css
@@ -4637,12 +4399,16 @@ h6 {
     }
     /* End Blog page Area css
   ============================================================================================ */
-    /* Contact Page Area css
+    /* CONTACT AREA
   ============================================================================================ */
     .contact_info {
         margin-bottom: 50px;
     }
-    /* End Contact page Area css
+    .contact-img img {
+        max-width: 50%;
+        max-width: 50%;
+    }
+    /* CONTACT AREA
   ============================================================================================ */
     .home_banner_area .donation_inner {
         margin-bottom: -30px;
@@ -4651,7 +4417,7 @@ h6 {
         max-width: 350px;
         margin: auto;
     }
-    /* Footer Area css
+    /* FOOTER AREA
   ============================================================================================ */
     .footer_area .col-sm-6 {
         margin-bottom: 30px;
@@ -4662,7 +4428,7 @@ h6 {
     .news_widget {
         padding-left: 0px;
     }
-    /* End End Footer Area css
+    /* FOOTER AREA
   ============================================================================================ */
     .home_banner_area .banner_inner .home_left_img {
         display: none;
