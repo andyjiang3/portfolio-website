@@ -1,5 +1,6 @@
 <?php
 
+	//Replaced PHP with Formspree because Web Host blocks PHP :(
     $to = "andyjaing13@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
@@ -10,15 +11,11 @@
     $headers = "From: $from";
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
-
-    $logo = 'img/logo.png';
+    $logo = 'img/favicon.png';
     $link = '#';
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Portfolio Website Contact</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";

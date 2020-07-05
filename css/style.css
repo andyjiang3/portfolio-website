@@ -2568,6 +2568,11 @@ h6 {
 
 /* PLAYGROUND PROJECTS */
 
+.playground-h {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .playground-name {
     text-align: center;
     margin-bottom: 50px;
@@ -2660,6 +2665,10 @@ h6 {
 }
 
 @media (max-width: 575px) {
+    .playground-h {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .playground-two-section h3 {
         padding-left: 15px;
         padding-right: 15px;
