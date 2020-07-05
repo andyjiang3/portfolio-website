@@ -1542,7 +1542,7 @@ h6 {
     padding-left: 30px;
 }
 
-.progress-table .country {
+.progress-table .skills-tag {
     width: 28.07%;
 }
 
@@ -1560,7 +1560,7 @@ h6 {
 }
 
 .progress-table .table-head .serial,
-.progress-table .table-head .country,
+.progress-table .table-head .skills-tag,
 .progress-table .table-head .visit,
 .progress-table .table-head .percentage {
     color: #222222;
@@ -1576,14 +1576,14 @@ h6 {
 }
 
 .progress-table .table-row .serial,
-.progress-table .table-row .country,
+.progress-table .table-row .skills-tag,
 .progress-table .table-row .visit,
 .progress-table .table-row .percentage {
     display: flex;
     align-items: center;
 }
 
-.progress-table .table-row .country img {
+.progress-table .table-row .skills-tag img {
     margin-right: 15px;
 }
 
@@ -2404,7 +2404,7 @@ h6 {
 
 .about_area .about_img {
     position: relative;
-    right: 250px;
+    right: 200px;
 }
 
 @media (max-width: 1480px) {
@@ -2709,11 +2709,11 @@ h6 {
     color: #fff;
 }
 
-.project-button-github {
+.project-button-learnmore {
     background-color: #55cfbd;
 }
 
-.project-button-github:hover {
+.project-button-learnmore:hover {
     background-color: #4cb8a7;
     color: #fff;
 }
@@ -2884,17 +2884,17 @@ h6 {
 
 /* SKILLS */
 
-.features_area {
+.skills-area {
     padding-bottom: 170px;
 }
 
 @media (max-width: 1199px) {
-    .features_area {
+    .skills-area {
         padding-bottom: 50px;
     }
 }
 
-.feature_item {
+.skill {
     padding: 45px 25px;
     text-align: center;
     background: #fafafa;
@@ -2904,30 +2904,32 @@ h6 {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    min-height: 311px;
 }
 
-.feature_item img {
+.skill img {
     margin-bottom: 35px;
 }
 
-.feature_item h4 {
+.skill h4 {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
-.feature_item p {
+.skill p {
     margin-bottom: 0px;
 }
 
-.feature_item:hover {
+.skill:hover {
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
     background: #fff;
 }
 
 @media (max-width: 992px) {
-    .feature_item {
+    .skill {
         background: #f7f7f7;
+        min-height: none;
     }
 }
 
@@ -3131,7 +3133,7 @@ h6 {
 }
 
 .subscription_box {
-    background: url(../img/email-update-bg.png) no-repeat center;
+    background: url(../img/email-update/email-update-bg.png) no-repeat center;
     padding: 150px 0px;
 }
 
@@ -3217,7 +3219,7 @@ h6 {
     }
 }
 
-.subscription_box .subcribe-form {
+.subscription_box .subscribe-form {
     margin-top: 45px;
 }
 

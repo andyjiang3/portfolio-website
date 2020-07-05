@@ -19,7 +19,7 @@
 <body>
 
     <!--================ NAVIGATION AREA =================-->
-    <header class="header_area">
+    <header class="header_area" id="header">
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
@@ -59,12 +59,6 @@
                                     <span class="text-uppercase">Student</span>
                                 </h5>
                             </div>
-
-                            <!--
-                            <div class="d-flex align-items-center">
-                                <a class="primary_btn tr-bg" href="#about-me"><span>Learn More</span></a>
-                            </div>
-                        -->
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -83,7 +77,7 @@
             <div class="row justify-content-start align-items-center">
                 <div class="col-lg-5">
                     <div class="about_img">
-                        <img class="" src="img/code_look.png" alt="">
+                        <img class="" src="img/about/about_img.png" alt="">
                     </div>
                 </div>
 
@@ -105,7 +99,7 @@
     </section>
 
     <!--================ SKILLS AREA =================-->
-    <section class="features_area">
+    <section class="skills-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -114,30 +108,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row feature_inner">
+            <div class="row skill-container">
                 <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
+                    <div class="skill">
                         <img src="img/skills/web.png" alt="">
                         <h4>Web Dev</h4>
                         <p>Website Development from front-end to back-end</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
+                    <div class="skill">
                         <img src="img/skills/ui_ux.png" alt="">
                         <h4>UI/UX Design</h4>
                         <p>Understanding of visual design and user-friendly interface.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
+                    <div class="skill">
                         <img src="img/skills/mobile.png" alt="">
                         <h4>Mobile Dev</h4>
                         <p>Experienced in creating full-scale mobile apps.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="feature_item">
+                    <div class="skill">
                         <img src="img/skills/machine_learning.png" alt="">
                         <h4>Machine Learning</h4>
                         <p>Experienced in developing deep learning neural networks (Tensorflow)</p>
@@ -180,15 +174,12 @@
                             </div>
                             <div class="project-des-larg project-des col-lg-4 mt-sm-20 left-align-p">
                                 <h3 class="project-title mb-20 title_color">Timed Cube</h3>
-                                <p>Gesture motion reflex game with seamless 3D animation, beautiful color scheme, and sound effects.
+                                <p>Gesture motion reflex game with seamless 3D animations, beautiful color scheme, and sound effects.
                                     <br> <br>• 2018 Congressional App Winner<br>• Presented at U.S Capitol to Congress members<br>• Recognized by Congressman Neal Dunn<br>• Awarded Certificate of Special Congressional Recognition.
                                 </p>
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="#about-me">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
-                                    </div>
-                                    <div class="col-md-6 col-6 button-2">
-                                        <a class="project-button-github project-button tr-bg" href="#about-me">GitHub <i class="button-logo-mr fa fa-github"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="#header">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language" class="prog-language">
@@ -232,10 +223,10 @@
                             </div>
                             <div class="project-des-small project-des col-lg-4 mt-sm-20 left-align-p">
                                 <h3 class="project-title mb-20 title_color">CHS Robotics Website</h3>
-                                <p>Website for the CHS Robotics Club, an internationally ranked VEX team. Features announcements, member information, sponsorship, and game details.</p>
+                                <p>Website for the CHS Robotics Club, an internationally ranked VEX team. Features announcements, events, club resources, sponsors, and competition details.</p>
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="https://chilesrobotics.com">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="https://chilesrobotics.com">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language2" class="prog-language">
@@ -283,7 +274,7 @@
                                 </p>
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="#about">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="#header">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language3" class="prog-language">
@@ -320,15 +311,12 @@
                             </div>
                             <div class="project-des-med project-des col-lg-4 mt-sm-20 left-align-p">
                                 <h3 class="project-title mb-30 title_color">Fliz</h3>
-                                <p>An educational platform that prepares competitors for test-based competitions through the usage of complex algorithms and unique features to replicate a testing environment. <br> <br>• FBLA Mobile App Development Winner
+                                <p>An educational platform that helps competitors prepare and study for test-based competitions through the usage of unique features and quizzes. <br> <br>• FBLA Mobile App Development Winner
                                 </p>
 
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="#about-me">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
-                                    </div>
-                                    <div class="col-md-6 col-6 button-2">
-                                        <a class="project-button-github project-button tr-bg" href="https://github.com/itsandyjiang/Fliz">GitHub <i class="button-logo-mr fa fa-github"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="https://github.com/itsandyjiang/Fliz">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language4" class="prog-language">
@@ -365,13 +353,10 @@
                             </div>
                             <div class="project-des col-lg-4 mt-sm-20 left-align-p">
                                 <h3 class="project-title mb-30 title_color">Chiles Clubs Website</h3>
-                                <p>Club directory website with a minimalist theme, making resources more accessible for students and making it easier for students to find clubs that fit their interests. </p>
+                                <p>Club directory website with a clean minimalist theme, making resources more accessible for students and easier for students to find clubs that fit their interests. </p>
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="https://chilesclubs.com/">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
-                                    </div>
-                                    <div class="col-md-6 col-6 button-2">
-                                        <a class="project-button-github project-button tr-bg" href="https://github.com/itsandyjiang/Chiles-Clubs-Website">GitHub <i class="button-logo-mr fa fa-github"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="https://chilesclubs.com/">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language5" class="prog-language">
@@ -414,13 +399,13 @@
                             </div>
                             <div class="project-des-xlarg project-des col-lg-4 mt-sm-20 left-align-p">
                                 <h3 class="project-title mb-30 title_color">Neural Network for Liver Cancer Diagnosis</h3>
-                                <p>Deep learning neural network that takes in 8 key blood biomarkers for liver cancer diagnosis. 88.3% accuracy rate based on over 20,000 data points. Converted Tensorflow to Core ML for IOS compatibility.
+                                <p>Deep learning neural network that takes in 8 common blood biomarkers for liver cancer diagnosis. 88.3% accuracy rate based on over 20,000 data points. Converted Tensorflow to Core ML for IOS compatibility.
                                     <br> <br>• 3rd in MACO at SSEF Florida<br>• 1st in MACO at Capitol Regional Science Fair<br>• 1st in Medical Innovation at HOSA<br> • The Office of Naval Research - Naval Science Award
                                 </p>
 
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="https://chilesclubs.com/">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="#header">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language6" class="prog-language">
@@ -472,7 +457,7 @@
                                 <p>Showcase guest speakers and upcoming events/presentations. Connect students with research professors. Learn about cutting edge research.</p>
                                 <div class="row project-buttons">
                                     <div class="col-md-6 col-6 button-1">
-                                        <a class="project-button-website project-button tr-bg" href="#about-me">Website <i class="button-logo-mr fa fa-external-link-square"></i></a>
+                                        <a class="project-button-learnmore project-button tr-bg" href="#header">Learn More <i class="button-logo-mr fa fa-external-link-square"></i></a>
                                     </div>
                                 </div>
                                 <div id="prog-language7" class="prog-language">
@@ -526,7 +511,7 @@
                         <p class="text-white">
                             Get occasional updates on what I'm working on!
                         </p>
-                        <div class="subcribe-form" id="mc_embed_signup">
+                        <div class="subscribe-form" id="mc_embed_signup">
                             <form target="_blank" novalidate="true" action="https://andyjiang.us10.list-manage.com/subscribe/post?u=7f0e484839eb0bad4baf70d32&amp;id=6133060790" method="get" class="subscription relative">
                                 <input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
                                 <div style="position: absolute; left: -5000px;">
@@ -562,10 +547,10 @@
             </div>
             <div class="row footer_bottom justify-content-center">
                 <p class="col-lg-8 col-sm-12 footer-text">
-                    Copyright &copy;
+                    Made by Andy Jiang - &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> Andy Jiang
+                    </script>
 
                 </p>
             </div>
