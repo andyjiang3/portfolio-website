@@ -2520,14 +2520,17 @@ h6 {
     .project-des {
         min-height: 300px;
     }
+    .project-des-small {
+        min-height: 200px;
+    }
     .project-des-med {
         min-height: 344px;
     }
     .project-des-larg {
-        min-height: 394px;
+        min-height: 415px;
     }
     .project-des-xlarg {
-        min-height: 424px;
+        min-height: 465px;
     }
 }
 
@@ -2574,6 +2577,11 @@ h6 {
     padding-right: 0px;
 }
 
+.playground-h2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .playground-name {
     text-align: center;
     margin-bottom: 50px;
@@ -2584,11 +2592,8 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-    .playground-name {
-        margin-bottom: 25px;
-    }
     .playground-name2 {
-        margin-top: 25px;
+        margin-top: 0px;
     }
 }
 
@@ -2649,6 +2654,8 @@ h6 {
     max-width: 100%;
 }
 
+.playground-two-section {}
+
 .playground-two-section:hover img {
     -webkit-transform: scale(0.975);
     -moz-transform: scale(0.975);
@@ -2670,6 +2677,10 @@ h6 {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .playground-h2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .playground-two-section h3 {
         padding-left: 15px;
         padding-right: 15px;
@@ -2681,6 +2692,19 @@ h6 {
     .playground-img {
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .playground-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .playground-two-section {
+        margin-bottom: 75px;
+    }
+    .playground-one-section {
+        margin-bottom: 75px;
     }
 }
 
