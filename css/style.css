@@ -489,6 +489,7 @@ button:focus {
 
 .home_banner_area .banner_inner {
     width: 100%;
+    overflow: hidden;
 }
 
 .home_banner_area .banner_inner .home_right_img {
