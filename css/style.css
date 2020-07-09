@@ -2532,6 +2532,9 @@ h6 {
     .project-des-xlarg {
         min-height: 465px;
     }
+    .playground-des-small {
+        min-height: 200px;
+    }
 }
 
 @media (max-width: 575px) {
